@@ -20,7 +20,7 @@ Install [NodeJs](https://nodejs.org/en/learn/getting-started/how-to-install-node
 ```bash
 cd ui
 
-npm ci
+npm i
 
 npm start
 ```
