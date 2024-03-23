@@ -2,6 +2,7 @@ import { useState } from 'react';
 import type { MenuProps } from 'antd';
 import { Menu } from 'antd';
 import PlayerProfile from './PlayerProfile';
+import Quests from './Quests';
 
 const items: MenuProps['items'] = [
     {
@@ -11,10 +12,6 @@ const items: MenuProps['items'] = [
     {
       label: 'Quests',
       key: 'quests',
-    },
-    {
-      label: 'Statistics',
-      key: 'statistics',
     },
   ];
 
@@ -29,6 +26,7 @@ export function Player() {
         <>
         <Menu onClick={onClick} selectedKeys={[current]} mode="horizontal" items={items} />
         {current === 'profile' && <PlayerProfile/>}
+        {current === 'quests' && <Quests/>}
         </>
     );
 }
