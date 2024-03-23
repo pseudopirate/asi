@@ -73,6 +73,7 @@ const Player = () => (
           <UserOutlined style={{ fontSize: '32px', color: 'currentColor' }} />
           <div style={{ display: 'flex', flexDirection: 'column' }}>
             <Title level={5}>Hiking Adventure</Title>
+            <div style={{ marginBottom: '10px', color: '#1F2937', backgroundColor: '#ecfdf5', borderColor: '#dcfce7', padding: '0.5rem', borderRadius: '1.5rem', borderWidth: '0.375rem', display: 'flex', width: '3rem', alignItems: 'center', justifyContent: 'center', fontSize: '0.75rem' }}>STF</div>
             <Text style={{ fontSize: '14px', color: '#757575' }}>Explore the mountain trails and find hidden treasures</Text>
             <Text style={{ fontSize: '14px', color: '#757575'}}>Location: City, Area Code, Coordinates</Text>
           </div>
