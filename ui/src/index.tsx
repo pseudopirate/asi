@@ -24,6 +24,8 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <div style={{padding: "10px"}}>
+      <RouterProvider router={router} />
+    </div>
   </React.StrictMode>
 );

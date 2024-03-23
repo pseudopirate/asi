@@ -1,3 +1,5 @@
+import { DatePicker } from 'antd';
+
 export function Player() {
-    return <div>Hello player</div>
+    return <DatePicker />;
 }
