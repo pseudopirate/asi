@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Default styles */
+.achievement-container {
+  display: grid;
+  margin-top: 25px;
+  grid-gap: 1.5rem; /* equivalent to gap-6 in Tailwind CSS */
+}
+
+/* Medium screen size and above */
+@media (min-width: 768px) {
+  .achievement-container {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .achievement-container {
+    grid-gap: 2rem; /* equivalent to md:gap-8 in Tailwind CSS */
+  }
+}
+
+/* Large screen size and above */
+@media (min-width: 1024px) {
+  .achievement-container {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
