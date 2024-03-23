@@ -2,6 +2,11 @@
 
 [Solve the SDGS 2024 hackaton](https://www.solvethesdgs.com/)
 
+### App views
+
+* [Player view](https://asi-psi.vercel.app/)
+* [Quest master view](https://asi-psi.vercel.app/master)
+  
 ### ASI Team in person
 
 From left to right
