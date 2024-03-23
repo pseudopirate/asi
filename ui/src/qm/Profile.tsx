@@ -1,5 +1,4 @@
 import { Card, Avatar, Col, Row, Typography, Descriptions, Tooltip  } from 'antd';
-import { AntDesignOutlined, UserOutlined } from '@ant-design/icons';
 const {  Text } = Typography;
 
 export default function Profile() {
@@ -33,7 +32,7 @@ export default function Profile() {
             <Card style={{ width: '100%', marginTop: "10px" }}>
                 <Text strong  style={{fontSize: '1.5em'}}>Achievements</Text>
                 <br/>
-                <Avatar.Group maxCount={2}>
+                <Avatar.Group maxCount={3}>
                     <Tooltip title="Quest master 2023" placement="top">
                         <Avatar size={64} src="https://files.oaiusercontent.com/file-y08LkZpIMgVsDhY8HUrPHJ7x?se=2024-03-23T16%3A22%3A12Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D56f32387-9c66-4052-9d16-b7b3c589fe48.webp&sig=CHMC03Fv3zQ2usqRpE9niAy26ApKFi9pbXQEDLQS17g%3D" />
                     </Tooltip>
