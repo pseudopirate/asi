@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import { Player } from './player';
 import { QM } from './qm';
+import NewQuest from './qm/NewQuest';
 
 const router = createBrowserRouter([
   {
@@ -16,7 +17,11 @@ const router = createBrowserRouter([
   {
     path: "/master",
     element: <QM />
-  }
+  },
+  {
+    path: "/master/new-quest",
+    element: <NewQuest />
+  },
 ]);
 
 const root = ReactDOM.createRoot(

@@ -1,4 +1,7 @@
 import { Card, Avatar, Col, Row, Typography, Descriptions, Tooltip  } from 'antd';
+import one from './1.jpeg';
+import two from './2.jpeg';
+import three from './3.jpeg';
 const {  Text } = Typography;
 
 export default function Profile() {
@@ -34,13 +37,13 @@ export default function Profile() {
                 <br/>
                 <Avatar.Group maxCount={3}>
                     <Tooltip title="Quest master 2023" placement="top">
-                        <Avatar size={64} src="https://files.oaiusercontent.com/file-y08LkZpIMgVsDhY8HUrPHJ7x?se=2024-03-23T16%3A22%3A12Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D56f32387-9c66-4052-9d16-b7b3c589fe48.webp&sig=CHMC03Fv3zQ2usqRpE9niAy26ApKFi9pbXQEDLQS17g%3D" />
+                        <Avatar size={64} src={one} />
                     </Tooltip>
                     <Tooltip title="Sustainable travelling" placement="top">
-                        <Avatar size={64} src="https://files.oaiusercontent.com/file-URpLdo91IFvhcBJ6A6PUFdvb?se=2024-03-23T16%3A28%3A54Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D48b94321-8d54-4e7d-8c23-c923aa8368e7.webp&sig=SrYtz%2BIXAOMEDu3Yx0/y9FjI5BDmgN6erPGtbpNd90k%3D"/>
+                        <Avatar size={64} src={two} />
                     </Tooltip>
                     <Tooltip title="Created 5 quests" placement="top">
-                        <Avatar size={64} src="https://files.oaiusercontent.com/file-qAWaWKUJxQBxyPh0RSCM7efN?se=2024-03-23T16%3A32%3A00Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D61705e65-b2c7-4120-8be4-e7a6085397ff.webp&sig=ZjD99OcCzkxcJFR8eE%2BCvd4aeaLnClfimX7D9oSqthw%3D"/>
+                        <Avatar size={64} src={three}/>
                     </Tooltip>
                 </Avatar.Group>
             </Card>
