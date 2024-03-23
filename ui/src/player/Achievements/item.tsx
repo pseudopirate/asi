@@ -1,3 +1,5 @@
+import RandomPicture from '../1.jpeg';
+
 interface AchievementItemProps {
   title: string;
   subtitle: string;
@@ -17,7 +19,7 @@ const AchievementItem: React.FC<AchievementItemProps> = (props) => {
             aspectRatio: '64/64',
             objectFit: 'cover',
           }}
-          src="/placeholder.svg"
+          src={RandomPicture}
           height="64"
           width="64"
         />
