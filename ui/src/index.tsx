@@ -5,7 +5,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import { Player } from './player';
+import Player from './player';
 import { QM } from './qm';
 
 const router = createBrowserRouter([
