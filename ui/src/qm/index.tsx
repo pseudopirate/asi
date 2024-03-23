@@ -13,10 +13,6 @@ const items: MenuProps['items'] = [
       label: 'Quests',
       key: 'quests',
     },
-    {
-      label: 'Statistics',
-      key: 'statistics',
-    },
   ];
 
 export function QM() {
